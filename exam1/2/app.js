@@ -18,7 +18,6 @@ $(document).ready(function(){
       }
       if(minutes >= maxMinutes && seconds >= maxSeconds){
         window.clearInterval(clock);
-        console.log("MARAMARAMARA!");
       }
       var minute_first_digit = Math.floor(minutes / 10);
       var minute_second_digit = minutes % 10;
@@ -45,7 +44,6 @@ $(document).ready(function(){
 
       if(minutes <= 0 && seconds <= 0){
         window.clearInterval(clock);
-        console.log("bububuueau");
       }
 
       var minute_first_digit = Math.floor(minutes / 10);
