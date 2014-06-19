@@ -30,18 +30,4 @@ var beerAndFries = function(items) {
   }, 0);
 };
 
-var testData = [{
-    type: "beer",
-    score: 10
-  }, {
-    type: "beer",
-    score: 11
-  }, {
-    type: "fries",
-    score: 1
-  }, {
-    type: "fries",
-    score: 5
-  }];
-console.log(beerAndFries(testData));
 exports.beerAndFries = beerAndFries;
